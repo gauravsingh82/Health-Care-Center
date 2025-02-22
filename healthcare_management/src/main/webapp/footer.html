@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Doctor Footer</title>
+<style type="text/css">
+.footer {
+	background-color: #778a77;
+	color: white;
+	text-align: center;
+	width: 100%;
+}
+
+.footer .footer-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 12px 50px;
+}
+
+.footer p {
+	margin: 0;
+	font-size: 16px;
+}
+
+.footer .social-links a {
+	color: white;
+	text-decoration: none;
+	margin: 0 10px;
+	font-size: 18px;
+}
+
+.footer .social-links a:hover {
+	text-decoration: underline;
+}
+
+/* Responsive Footer */
+@media ( max-width : 768px) {
+	.footer .footer-content {
+		flex-direction: column;
+		text-align: center;
+	}
+	.footer .social-links {
+		margin-top: 10px;
+	}
+}
+</style>
+</head>
+<body>
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="footer-content">
+			<p>&copy; 2024 Your Company. All Rights Reserved.</p>
+			<div class="social-links">
+				<a href="http://www.facebook.com" target="_blank">Facebook</a> <a
+					href="http://www.twitter.com" target="_blank">Twitter</a> <a
+					href="http://www.instagram.com" target="_blank">Instagram</a>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
